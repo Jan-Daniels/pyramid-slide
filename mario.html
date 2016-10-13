@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        #pyramid {
+            line-height: 0;
+            font-size: 30px;
+        }
+        body {
+            font-family: "Courier New", monospace;
+            text-align: center;
+        }
+    </style>
+</head>
+<body >
+    <h1>Mario Slider</h1>
+
+    <br>
+    <form>How High?  <input type="range" value="0" name="slider_height" min="0" max="20" oninput="drawPyramid(this.value)">
+    </form>
+
+    <pre id="pyramid">
+        <script src="mario.js"></script>
+    </pre>
+
+</body>
+</html>
